@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.details-search-list {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  list-style: none;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+
+.details-search-list li:hover{
+  cursor: pointer;
+  background-color: antiquewhite;
+}
